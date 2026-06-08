@@ -1,8 +1,19 @@
-export default function Footer() {
+function Footer() {
   return (
-    <footer>
-      © 2026 GameShop.
-      All Rights Reserved.
+    <footer className="footer">
+
+      <h3>GameStop</h3>
+
+      <p>
+        Your Ultimate Gaming Destination
+      </p>
+
+      <p>
+        © 2026 GameStop. All Rights Reserved.
+      </p>
+
     </footer>
   );
 }
+
+export default Footer;

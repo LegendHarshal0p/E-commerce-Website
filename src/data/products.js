@@ -1,122 +1,90 @@
 const products = [
   {
     id: 1,
-    name: "Sony WH-1000XM5",
-    brand: "Sony",
-    category: "Audio",
-    price: 29999,
-    discount: 20,
-    rating: 4.8,
-    stock: 12,
-    description:
-      "Premium wireless headphones featuring industry-leading noise cancellation and crystal-clear sound quality.",
+    name: "PlayStation 5 Slim",
+    price: 54999,
     image:
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db",
+    category: "Console",
+    description:
+      "Experience lightning-fast loading, immersive gaming and stunning graphics with the PS5 Slim."
   },
 
   {
     id: 2,
-    name: "Apple Watch Series 9",
-    brand: "Apple",
-    category: "Wearables",
-    price: 45999,
-    discount: 10,
-    rating: 4.9,
-    stock: 8,
-    description:
-      "Advanced smartwatch with fitness tracking, ECG monitoring, and seamless iPhone integration.",
+    name: "Xbox Series X",
+    price: 49999,
     image:
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+      "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
+    category: "Console",
+    description:
+      "The fastest and most powerful Xbox ever with true 4K gaming."
   },
 
   {
     id: 3,
-    name: "Samsung Odyssey G5",
-    brand: "Samsung",
-    category: "Monitors",
-    price: 27999,
-    discount: 25,
-    rating: 4.7,
-    stock: 6,
-    description:
-      "32-inch curved gaming monitor with 144Hz refresh rate and QHD resolution.",
+    name: "ASUS ROG Strix G16",
+    price: 129999,
     image:
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500",
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1200",
+    category: "Laptop",
+    description:
+      "13th Gen Intel processor with RTX graphics for competitive gaming."
   },
 
   {
     id: 4,
-    name: "ASUS ROG Strix",
-    brand: "ASUS",
-    category: "Laptop",
-    price: 119999,
-    discount: 15,
-    rating: 4.8,
-    stock: 5,
-    description:
-      "Powerful gaming laptop equipped with RTX graphics and high-refresh display.",
+    name: "Logitech G Pro X",
+    price: 9999,
     image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500",
+      "https://images.unsplash.com/photo-1585298723682-7115561c51b7",
+    category: "Headset",
+    description:
+      "Professional gaming headset with Blue Voice microphone."
   },
 
   {
     id: 5,
-    name: "Logitech MX Master 3S",
-    brand: "Logitech",
-    category: "Accessories",
-    price: 8999,
-    discount: 18,
-    rating: 4.9,
-    stock: 15,
-    description:
-      "Professional productivity mouse with ultra-fast scrolling and precision tracking.",
+    name: "Razer DeathAdder V3",
+    price: 6999,
     image:
-      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500"
+      "https://images.unsplash.com/photo-1527814050087-3793815479db",
+    category: "Mouse",
+    description:
+      "Ultra-lightweight esports gaming mouse."
   },
 
   {
     id: 6,
-    name: "Razer BlackWidow V4",
-    brand: "Razer",
-    category: "Keyboard",
-    price: 14999,
-    discount: 20,
-    rating: 4.8,
-    stock: 7,
-    description:
-      "RGB mechanical gaming keyboard with customizable switches and premium build quality.",
+    name: "SteelSeries Apex Pro",
+    price: 17999,
     image:
-      "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=500",
+      "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae",
+    category: "Keyboard",
+    description:
+      "Mechanical gaming keyboard with adjustable actuation."
   },
 
   {
     id: 7,
-    name: "iPad Air M2",
-    brand: "Apple",
-    category: "Tablet",
-    price: 64999,
-    discount: 12,
-    rating: 4.9,
-    stock: 10,
-    description:
-      "Lightweight tablet powered by the M2 chip for work, creativity, and entertainment.",
+    name: "NVIDIA RTX 4080",
+    price: 109999,
     image:
-      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+      "https://images.unsplash.com/photo-1591488320449-011701bb6704",
+    category: "GPU",
+    description:
+      "Ultimate graphics card for 4K gaming and content creation."
   },
 
   {
     id: 8,
-    name: "JBL Charge 5",
-    brand: "JBL",
-    category: "Speaker",
-    price: 11999,
-    discount: 22,
-    rating: 4.7,
-    stock: 20,
-    description:
-      "Portable Bluetooth speaker with powerful bass and all-day battery life.",
+    name: "Gaming Chair Pro",
+    price: 18999,
     image:
-      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=500",
+      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1200",
+    category: "Furniture",
+    description:
+      "Ergonomic gaming chair with lumbar support."
   }
 ];
 
