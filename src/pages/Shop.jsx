@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../components/Productcard";
 import products from "../data/products";
 
 function Shop({ addToCart, addToWishlist }) {

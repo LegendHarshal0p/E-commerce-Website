@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../components/Productcard";
 import products from "../data/products";
 
 function Home({ addToCart, addToWishlist }) {
